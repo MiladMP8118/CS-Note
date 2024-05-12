@@ -30,7 +30,7 @@ namespace TextEditorV1
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog openfile = new OpenFileDialog();
-            openfile.Title = "My open file dialog";
+            openfile.Title = "Open File";
             openFileDialog1.Filter = "Text Files(.txt)|*.txt|All Files (.)|*.*";
             if (openfile.ShowDialog() == DialogResult.OK)
             {
@@ -45,7 +45,7 @@ namespace TextEditorV1
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            saveFileDialog1.Title = "Save your File";
+            saveFileDialog1.Title = "Save File";
             saveFileDialog1.Filter = "Text Files(.txt)|*.txt|Rich text file|*rtf|Word Document|*.docx";
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -105,6 +105,28 @@ namespace TextEditorV1
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.SelectAll();
+        }
+
+        private void colorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.ForeColor = colorDialog1.Color;
+            }
+        }
+
+        private void fontStyleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (fontDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Font = fontDialog1.Font;
+            }
+        }
+
+        private void aboutMeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message1 = " I'm a Text Editor made with C#.";
+            MessageBox.Show(message1,"About Me:)");
         }
     }
 }
