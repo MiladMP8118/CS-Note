@@ -1,0 +1,9 @@
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\bin\Debug\TextEditorV1.exe.config
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\bin\Debug\TextEditorV1.exe
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\bin\Debug\TextEditorV1.pdb
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.csprojAssemblyReference.cache
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.Form1.resources
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.Properties.Resources.resources
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.csproj.GenerateResource.cache
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.exe
+C:\Milad\smmp\programming\Csharp\Projects\TextEditorV1\TextEditorV1\TextEditorV1\obj\Debug\TextEditorV1.pdb
